@@ -1,6 +1,6 @@
 To use our code, please navigate to https://colab.research.google.com/drive/1VeXooAxDorZ6R0bOaXWzJmegizkPPWwI?usp=sharing
 
-How to Use our Code
+#### How to Use our Code
 
 Users who wish to navigate the open-source CS course landscape can run cs-course-recommender.ipynb on Colab or Jupyter in order to engage with the database we have created. This notebook allows for three main functionalities: (1) viewing all listings in our database, (2) searching the database via string input, and (3) entering a description of one's CS goals. Each functionality occurs by running one or more code blocks grouped by functionality heading ("Public Access Computer Science Course Database", "Search the database", and "Finding courses that suit your goals").
 
