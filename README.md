@@ -1,3 +1,5 @@
+Corresponding paper access: https://doi.org/10.35542/osf.io/sndum
+
 #### Problem Statement
 
  Navigating the changing landscape of Computer Science is more difficult than ever, for both newcomers to the field and seasoned professionals aiming to stay informed and up-to-date on trends. With a plethora of decentralized resources and generic guides to learning Artificial Intelligence or Machine Learning from scratch, finding the right course to suit your needs and help you carve out your niche in this field can be overwhelming.  
@@ -9,10 +11,6 @@
 ##### Web Crawling for Data Collection
 
  To centralize and organize existing learning resources, this platform leverages web crawling to gather open-access Computer Science courses names and descriptions from MIT OpenCourseWare and Coursera. We consider web crawling the optimal approach for this task because it allows us to efficiently gather a wide range of up-to-date information from diverse sources, ensuring our database is comprehensive and current. Additionally, web crawling offers the advantage of automating the data collection process, saving valuable time and resources compared to manual entry methods. 
-
-###### Web Crawling Statement
-
- We acknowledge the importance of good robot "citizenship" and are committed to ensuring that our web robot operates within the guidelines set by the websites we visit. Our web crawler adheres to the directives specified in the robots.txt files of the websites and complies with the restrictions and limitations imposed by the website administrators. We have limited the scope of our web crawling activities to only the segments of the web that are directly relevant to our research purposes. For this project, we access each course webpage from the results of the educational sites' course search filtered to "Computer Science" results and collect the course title and description. 
 
 ##### Course Recommendation 
 
@@ -33,30 +31,3 @@ Functionality (1) allows the user to view all courses in the database, ten cours
 Functionality (2) allows the user to enter a token. After the token is entered, our program will search the title and description of each course for the appearance of that token. Courses containing the token in their titles or descriptions will be outputted, ten courses at a time. If the token does not appear in any course title or description, our program will output "No Matches."
 
 Functionality (3) allows the user to enter a description of their learning goals for their CS education. After they enter this description, the course descriptions that have the highest cosine similarity score to the user-entered description will be outputted in ranked order.
-
-#### Discussion 
-
-##### Achivements 
-
-The strengths and achievements of our projects are enumerated below: 
-
-1. Innovative Use of Plain Text Queries: Our project introduces a novel approach of allowing users to input plain text queries about what they want to learn by leveraging developing LLM technology, ultimately providing a more intuitive and flexible interface. 
-2. User-Friendly Interface: Encoding prompts and course information using an LLM provides the option for users to write longer, more detailed queries. This enhances the user experience and encourages deeper engagement with the system and significantly contributes to the usability and effectiveness of the tool.
-3. Centralizing Open Courseware: By scraping and aggregating 1,233 courses from several open courseware sites, our project solves the problem of users having to manually search through multiple sites to find relevant courses. This not only saves time but also ensures that users have access to a comprehensive range of options. 
-
-
-##### Areas for Improvement
-
-We have identified several areas for improvement in our project: 
-
-1. Expand Dataset: We plan to expand the number of open courseware sites we scrape to ensure a more comprehensive dataset.
-2. Prompt Engineering Experimentation: We intend to experiment with prompt engineering techniques to enhance the quality of our search results.
-3. Alternative Similarity Metrics Exploration: We plan to explore alternative similarity metrics beyond Cosine, as it could lead to better results.
-4. User Feedback Incorporation: We hope to incorporate user feedback by conducting evaluations to help us refine our approach to ensure it satisfies user needs.
-
-
-#### Future Work
-
-We intend to continue this project by developing an LLM Retrieval Augmented Generation ChatBot that empowers people to achieve their goals by generating personalized learning pathways consisting of open-access courses tailored to individuals' specific backgrounds, needs, and ambitions. The system will additionally allow the user to provide feedback on the generated learning path, which can be used to further refine the recommendations. 
-
-
