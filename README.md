@@ -10,7 +10,7 @@
 
  To centralize and organize existing learning resources, this platform leverages web crawling to gather open-access Computer Science courses names and descriptions from MIT OpenCourseWare and Coursera. We consider web crawling the optimal approach for this task because it allows us to efficiently gather a wide range of up-to-date information from diverse sources, ensuring our database is comprehensive and current. Additionally, web crawling offers the advantage of automating the data collection process, saving valuable time and resources compared to manual entry methods. 
 
-**Web Crawling Statement**
+###### Web Crawling Statement
 
  We acknowledge the importance of good robot "citizenship" and are committed to ensuring that our web robot operates within the guidelines set by the websites we visit. Our web crawler adheres to the directives specified in the robots.txt files of the websites and complies with the restrictions and limitations imposed by the website administrators. We have limited the scope of our web crawling activities to only the segments of the web that are directly relevant to our research purposes. For this project, we access each course webpage from the results of the educational sites' course search filtered to "Computer Science" results and collect the course title and description. 
 
@@ -40,19 +40,19 @@ Functionality (3) allows the user to enter a description of their learning goals
 
 The strengths and achievements of our projects are enumerated below: 
 
-    - Innovative Use of Plain Text Queries: Our project introduces a novel approach of allowing users to input plain text queries about what they want to learn by leveraging developing LLM technology, ultimately providing a more intuitive and flexible interface. 
-    - User-Friendly Interface: Encoding prompts and course information using an LLM provides the option for users to write longer, more detailed queries. This enhances the user experience and encourages deeper engagement with the system and significantly contributes to the usability and effectiveness of the tool.
-    - Centralizing Open Courseware: By scraping and aggregating 1,233 courses from several open courseware sites, our project solves the problem of users having to manually search through multiple sites to find relevant courses. This not only saves time but also ensures that users have access to a comprehensive range of options. 
+1. Innovative Use of Plain Text Queries: Our project introduces a novel approach of allowing users to input plain text queries about what they want to learn by leveraging developing LLM technology, ultimately providing a more intuitive and flexible interface. 
+2. User-Friendly Interface: Encoding prompts and course information using an LLM provides the option for users to write longer, more detailed queries. This enhances the user experience and encourages deeper engagement with the system and significantly contributes to the usability and effectiveness of the tool.
+3. Centralizing Open Courseware: By scraping and aggregating 1,233 courses from several open courseware sites, our project solves the problem of users having to manually search through multiple sites to find relevant courses. This not only saves time but also ensures that users have access to a comprehensive range of options. 
 
 
 ##### Areas for Improvement
 
 We have identified several areas for improvement in our project: 
 
-    - Expand Dataset: We plan to expand the number of open courseware sites we scrape to ensure a more comprehensive dataset.
-    - Prompt Engineering Experimentation: We intend to experiment with prompt engineering techniques to enhance the quality of our search results.
-    - Alternative Similarity Metrics Exploration: We plan to explore alternative similarity metrics beyond Cosine, as it could lead to better results.
-    - User Feedback Incorporation: We hope to incorporate user feedback by conducting evaluations to help us refine our approach to ensure it satisfies user needs.
+1. Expand Dataset: We plan to expand the number of open courseware sites we scrape to ensure a more comprehensive dataset.
+2. Prompt Engineering Experimentation: We intend to experiment with prompt engineering techniques to enhance the quality of our search results.
+3. Alternative Similarity Metrics Exploration: We plan to explore alternative similarity metrics beyond Cosine, as it could lead to better results.
+4. User Feedback Incorporation: We hope to incorporate user feedback by conducting evaluations to help us refine our approach to ensure it satisfies user needs.
 
 
 #### Future Work
